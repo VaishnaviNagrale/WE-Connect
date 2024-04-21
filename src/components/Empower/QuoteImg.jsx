@@ -8,7 +8,7 @@ function QuoteImg() {
     <div className="quote-img">
       <Grid item md={4} lg={4}>
         <img
-          src={require("../../assets/bg-flower.png")}
+          src={require("../../assets/women-bg.png")}
           alt="woman"
           height="90%"
           style={{

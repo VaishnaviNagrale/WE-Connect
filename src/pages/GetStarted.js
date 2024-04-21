@@ -9,7 +9,7 @@ import logoName from "../assets/logo-name.png";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import { styled } from "@mui/material/styles";
-import flower from "../assets/bg-flower.png";
+import bg from "../assets/women-bg.png";
 import animation from "../assets/multi-tasking.png";
 import help from "../assets/icons/help.svg";
 import contact from "../assets/icons/contact.svg";
@@ -85,8 +85,8 @@ function GetStarted() {
         </AppBar>
       </div>
       {/* <img
-        src={flower}
-        alt="flower"
+        src={bg}
+        alt="women"
         style={{
           height: "600px",
           width: "600px",
