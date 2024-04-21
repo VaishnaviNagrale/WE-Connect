@@ -14,6 +14,8 @@ import { Authentication } from "../data/auth";
 import PrivateRoute from "../components/PrivateRoute";
 import Queries from "./Queries";
 import Loading from '../components/Loading';
+import PostCommunity from "./PostCommunity";
+import FindCommunity from "./FindCommunity";
 
 function App() {
 
@@ -39,6 +41,8 @@ function App() {
           <Route path="/findjob" element={ <PrivateRoute child={<FindJob />}></PrivateRoute> } />
           <Route path="/buyproduct" element={ <PrivateRoute child={<BuyProduct />}></PrivateRoute> } />
           <Route path="/sellproduct" element={ <PrivateRoute child={<SellProduct />}></PrivateRoute> } />
+          <Route path="/postCommunity" element={ <PrivateRoute child={<PostCommunity/>}></PrivateRoute> } />
+          <Route path="/findCommunity" element={ <PrivateRoute child={<FindCommunity/>}></PrivateRoute> } />
           <Route path="/queries" element={ <PrivateRoute child={<Queries />}></PrivateRoute> } />
           <Route path={"/forgotpassword"} element={<ForgotPass/>} />
         </Routes>
